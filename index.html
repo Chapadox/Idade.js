@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Idade.js</title>
+        <style>
+            html {
+                background-color: #cce5ff;
+            }
+            body {
+                width: 600px;
+                height: 600px;
+                border: solid;
+                margin: 0 auto;
+                margin-top: 30px;
+                background-color: #b0c2f2;
+                border-color: black;
+                color: white;
+                font-size: x-large;
+            }
+            input {
+                border-radius: 5px;
+                width: 200px;
+            }
+            button {
+                position: relative;
+                top: 10px;
+                width: 200px;
+                border-radius: 5px;
+                left: 190px;
+
+            }
+
+            #resultado {
+                position: relative;
+                top: 100px;
+                left: 100px;
+                color: red
+
+            }
+
+             #form {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <p>Ano de nascimento: <input placeholder="Digite o ano que você nasceu" type="number" id="inputIdade"></input></p>
+        </div>
+
+        <button id="verificar" onclick="idade()">Verificar</button>
+
+        <strong><div id="resultado"></div></strong>
+        <script src="index.js"> </script>
+    </body>
+</html>
